@@ -1,6 +1,6 @@
 body{
 	background: #ccf7fe;
-	padding-top: 8vh;
+	padding-top: 54px;
 }
 .mui-bar-nav>a{
 	float: right;
@@ -11,10 +11,412 @@ body{
 }
 .mui-bar-nav{
 	/*padding-top: 10vh;*/
+	z-index: 200;
 }
 .hao-box{
 	background: #FFFF00;
 	width:100%;
-	height: 200px;
 	
+	position: relative;
+}
+.hao-box1{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: 5%;
+	z-index: 100;
+}
+.hao-box::after,
+.hao-box::before{
+	content: "";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	display: block;
+}
+.hao-box2::after,
+.hao-box2::before{
+	content: "";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	display: block;
+}
+.hao-new::after,
+.hao-new::before{
+	content: "";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	display: block;
+}
+.hao-box3::after,
+.hao-box3::before{
+	content: "";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	display: block;
+}
+.hao-box4::after,
+.hao-box4::before{
+	content: "";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	display: block;
+}
+.hao-box5::after,
+.hao-box5::before{
+	content: "";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	display: block;
+}
+.hao-box6::after,
+.hao-box6::before{
+	content: "";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	display: block;
+}
+
+.hao-box1>a{
+	float: left;
+	width: 15%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #C7C7CC; 
+}
+.hao-box1-1>input{
+	width: 60%;
+	margin: 0px;
+	border: none;
+	font-size: 14px;
+	height: 30px;
+}
+.hao-box1-1>a{
+	color: #C7C7CC; 
+}
+.hao-box1-1{
+	width: 85%;
+	height: 32px;
+	float: left;
+	border: 1px solid #C7C7CC;
+    border-radius:30px; 
+    color: #C7C7CC; 
+    background: #FFFFFF;        
+}
+
+.hao-s{
+	float: right;
+}
+.but{
+	float: right;
+	width: 18%;
+	height: 30px;
+	line-height: 30px;
+	border-left: 1px solid #C7C7CC;
+	
+}
+.hao-box2{
+	width: 100%;
+	height: 160px;
+	background: #ccf7fe;
+}
+.hao-box2>ul>li{
+	width: 25%;
+	height: 75px;
+	background: #ccf7fe;
+	border-bottom: 1px solid #c9d7db;
+	border-right: 1px solid #c9d7db;
+	float: left;
+	font-size: 10px;
+	text-align: center;
+}
+.hao-box2>ul>li>a{
+	
+	color: #5f6b6e;
+}
+.hao-box2>ul>li>a>span{
+	height: 65%;
+	width: 100%;
+	font-size: 45px;
+}
+.hao-new{
+	width: 90%;
+	margin: 0px auto;
+	height: 25px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+.hao-new-1{
+	width: 10%;
+	float: left;
+	font-weight: 900;
+	height: 25px;
+	font-size: 10px;
+	line-height: 25px;
+}
+.hao-new>span{
+	float: left;
+	color: red;
+}
+.hao-new>a{
+	color: #CCCCCC;
+	padding-left: 10px;
+}
+.hao-new-2, .hao-ged{
+	width: 12%;
+	float: right;
+	font-weight: 900;
+	height: 25px;
+	font-size: 10px;
+	line-height: 25px;
+}
+.hao-new-2>a{
+	color: #CCCCCC;	
+}
+.hao-box3{
+	width: 100%;
+	height: 100px;
+	background: #ccf7fe;
+	margin-top: 10px;
+}
+.hao-box3-1{
+	width: 100%;
+	height: 30px;
+	background: #e6fbff;
+}
+.hao-box3-1-1{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.hao-box3-1-1>span{
+	color: red;
+}
+.hao-ged{
+	width: 13%;
+	height: 30px;
+	line-height: 30px;
+	
+	font-weight: 100;
+}
+.hao-ged>a{
+	color: #CCCCCC;
+}
+.hao-box3-2{
+	background: #FFFFFF;
+	width: 100%;
+	height: 70px;
+	border-top: 10px solid #ccf7fe;
+}
+.hao-box3-2>ul>li{
+	float: left;
+	width: 25%;
+}
+.hao-box3-2>ul>li>a{
+	display: block;
+}
+.hao-box3-2>ul>li>a>img{
+	width: 100%;
+	height: 60px;
+	
+}
+.hao-box4{
+	width: 100%;
+	height: 200px;
+	background: #ccf7fe;
+	margin-top: 10px;
+}
+.hao-box5{
+	width: 100%;
+	height: 200px;
+	background: #ccf7fe;
+	margin-top: 20px;
+}
+.hao-box6{
+	width: 100%;
+	height: 380px;
+	background: #ccf7fe;
+	margin-top: 20px;
+}
+.hao-bo4-1{
+	width: 90%;
+	height: 170px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+.hao-bo4-1-shp{
+	width: 40%;
+	height: 169px;
+	border-right: 1px solid #CCCCCC;
+	float: left;
+	position: relative;
+}
+
+.hao-bo4-1-shp2, .hao-bo4-1-shp3{
+	float: left;
+	width: 60%;
+	height: 84px;
+	font-size: 10px;
+}
+.hao-bo4-1-shp2{
+	border-bottom: 1px solid #CCCCCC;
+}
+.hao-bo4-1-shp>p, .hao-bo4-1-shp>a{
+	display: block;
+}
+.hao-bo4-1-shp1{
+	width: 100%;
+	height: 69px;
+	font-size: 10px;
+}
+.hao-bo4-1-shp>a>img{
+	width: 100%;
+	height: 99px;
+	
+}
+.bao{
+	width: 50%;
+	height: 84px;
+	float: left;
+	
+}
+.bao>a>img{
+	width: 100%;
+	height: 83px;
+	border: none;
+}
+.bao>a{
+	display: block;
+	border: none;
+}
+.hao-bo4-1-shp1>span{
+	width: 100px;
+	margin: 0;
+}
+.hao-z{
+	width: 50%;
+	height: 84px;
+	float: left;
+	border-right: 1px solid #CCCCCC;
+	font-size: 10px;
+}
+.hao-y{
+	width: 50%;
+	height: 84px;
+	float: left;
+}
+.bao2{
+	width: 50%;
+	height: 84px;
+	float: left;
+	line-height: 45px;
+}
+.bao2>a{
+	display: block;
+}
+.bao2>a>img{
+	width: 100%;
+}
+.hao-bo5-1-s, .hao-bo5-1-x{
+	float: left;
+	width: 100%;
+	height: 48%;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+.hao-bo5-1-x{
+	margin-top: 3%;
+}
+.uu{
+	background: #ccf7fe;
+	border: none;
+}
+.hao-bo5-1-s1, .hao-bo5-1-s2, .hao-bo5-1-x1, .hao-bo5-1-x2{
+	width: 50%;
+	height: 100%;
+	float: left;
+	font-size: 10px;
+}
+.hao-bo5-1-s1, .hao-bo5-1-x1{
+	border-right: 1px solid #CCCCCC;
+}
+.bao3>a>img{
+	margin: 0px;
+	width: 90px;
+}
+.hao-box4, .hao-box5, .hao-box6{
+	color: #b1b1b1;
+}
+.hao-box6-shp{
+	width: 90%;
+	height: 345px;
+	background: #ccf7fe;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+.hao-box6-shp1-z, .hao-box6-shp2-y{
+	float: left;
+	width: 48%;
+	height: 50%;
+	background: #ccf7fe;
+	font-size: 10px;
+}
+.hao-box6-shp1-y, .hao-box6-shp2-z{
+	float: right;
+	width: 48%;
+	height: 50%;
+	background: #ccf7fe;
+	font-size: 10px;
+}
+.bao4{
+	width: 100%;
+	height: 54%;
+}
+.bao4>a{
+	display: block;
+}
+.bao4>a>img{
+	width: 110px;
+	height: 65%;
+	margin: 0px 10%;
+}
+.kxs{
+	width: 28%;
+	height: 17px;
+	border: 1px solid red;
+	line-height: 17px;
+	float: right;
+}
+.hao-box6-shp1-z>span, .hao-box6-shp2-y>span, .hao-box6-shp1-y>span, .hao-box6-shp2-z>span{
+	color: red;
+}
+.mui-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(0,0,0,.3);
+}
+.mui-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(0,0,0,.3);
 }
